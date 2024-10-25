@@ -1,0 +1,245 @@
+/* Fontes e cores principais */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #0A0A0A;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Cabeçalho */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #0A0A0A;
+}
+
+.header .logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.header .dot {
+    color: #C787FF;
+}
+
+.header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.header nav ul li {
+    margin-right: 20px;
+}
+
+.header nav ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.auth-buttons button {
+    background-color: #C787FF;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.auth-buttons .signup-btn {
+    background-color: #FF00E5;
+}
+
+/* Seção Hero (Auto Gestão) */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 10%;
+    background-color: #0A0A0A;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+
+.hero-text p {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color: #FFFFFF;
+}
+
+.cta-btn {
+    background-color: #C787FF;
+    color: #FFFFFF;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.hero-image img {
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+/* Seção Minhas Tarefas */
+.tarefas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 10%;
+    background-color: #121212;
+}
+
+.tarefas-text {
+    max-width: 50%;
+}
+.tarefas-text h2 {
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+.tarefas-text p {
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.cta-link {
+    font-size: 18px;
+    color: #C787FF;
+    text-decoration: none;
+}
+
+.tarefas-image img {
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+/* Seção Metas */
+.metas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 10%;
+    background-color: #0A0A0A;
+}
+
+.metas-image img {
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+.metas-text {
+    max-width: 50%;
+}
+.metas-text h2 {
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+.metas-text p {
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.metas .cta-link {
+    font-size: 18px;
+    color: #C787FF;
+    text-decoration: none;
+}
+
+/* Seção Reflexões */
+.reflexoes {
+    padding: 50px 10%;
+    background-color: #121212;
+}
+
+.reflexoes h2 {
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+.reflexoes p {
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.reflexoes textarea {
+    width: 100%;
+    height: 200px;
+    background-color: #0A0A0A;
+    border: none;
+    border-radius: 10px;
+    color: #FFFFFF;
+    padding: 15px;
+    font-size: 16px;
+}
+
+/* Seção Contato */
+.contato {
+    padding: 50px 10%;
+    background-color: #0A0A0A;
+}
+
+.contato h2 {
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+.contato p {
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.contato input,
+.contato textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #121212;
+    border: none;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.contato button {
+    background-color: #C787FF;
+    color: #FFFFFF;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Rodapé */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #121212;
+    color: #FFFFFF;
+    font-size: 16px;
+}
